@@ -1,9 +1,6 @@
 export const bio = [
   "Hello there &#128075;",
-  "I'm Vinay Somawat, a Software Engineer at Biofourmis India with a specialization in JavaScript Applications. I have a passion for all things tech and consider myself a curious and enthusiastic developer.",
-  "Apart from coding, I love to read, listen to music, and travel.",
-  "As a lifelong learner, I'm always seeking new knowledge and experiences to broaden my perspective and enhance my skills.",
-  "Thanks for taking the time to learn a little about me!",
+  "As a Software Developer, I am continuously developing my expertise and learning new techonologies, demonstrating my commitment to professional growth. I'm a "
 ];
 
 export const skills = [
@@ -15,15 +12,15 @@ export const skills = [
   },
   {
     title: "Frameworks/Libraries",
-    skillName: "Angular, Rxjs, Ngxs",
+    skillName: "ReactJS, NodeJS, Redux",
     color: "6",
     percentage: "70",
   },
   {
     title: "Design",
-    skillName: "HTML, Bootstrap, Tailwind",
+    skillName: "HTML, CSS, Styled Components",
     color: "4",
-    percentage: "70",
+    percentage: "80",
   },
   {
     title: "Version Control",
@@ -33,21 +30,15 @@ export const skills = [
   },
   {
     title: "Tools",
-    skillName: "Postman, Chrome DevTools",
+    skillName: "Insomnia, Docker",
     color: "3",
-    percentage: "80",
-  },
-  {
-    title: "Analytics",
-    skillName: "CleverTap, Countly",
-    color: "5",
-    percentage: "50",
-  },
-  {
-    title: "Editor",
-    skillName: "VS Code",
-    color: "6",
     percentage: "70",
+  },
+  {
+    title: "UX",
+    skillName: "UX, UI",
+    color: "5",
+    percentage: "60",
   },
 ];
 
@@ -56,168 +47,114 @@ export const projects = {
     "*** All the projects I listed were completed during my college-level development journey. As for my work at the industry level, those projects are confidential and cannot be disclosed.",
   webProjects: [
     {
-      projectName: "Programming Diaries",
-      image: "images/programmingdiaries.png",
+      projectName: "Travel Companion Application",
+      image: "images/TravelApp.png",
       summary:
-        "Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-      preview: "https://programmingdiaries.herokuapp.com/",
-      techStack: ["Django", "SQLite", "Bootstrap", "JavaScript", "Heroku"],
-    },
-    {
-      projectName: "Find Your Bank",
-      image: "images/findyourbank.png",
-      summary:
-        "Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-      preview: "https://clever-fermi-0d5d76.netlify.app",
-      techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
-    },
-    {
-      projectName: "Web Portfolio",
-      image: "images/portfolio.png",
-      summary:
-        "Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-      preview: "https://github.com/vinaysomawat/Travographer-Portal",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
-    },
-    {
-      projectName: "Resume Builder",
-      image: "images/resume-builder.png",
-      summary:
-        "Browser based editor to build and download Resumes in a customizable templates.",
-      preview: "https://vinaysomawat.github.io/Resume-Builder",
-      techStack: ["HTML", "Bootstrap", "JavaScript"],
+        "Developed a fullstack application that provides the location of restaurants, Attractions and Hotels around you.",
+      preview: "https://travel-advisor-2022.netlify.app/",
+      techStack: [
+        "Javascript",
+        "rapidApi",
+        "google-maps-api",
+        "snazzy maps",
+        "Netlify",
+      ],
     },
   ],
   softwareProjects: [
     {
-      projectName: "Pizza Ordering ChatBot",
-      image: "images/pizzaorderchatbot.png",
-      summary:
-        "ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-      preview: "https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-      techStack: ["Dailogflow", "Firebase"],
-    },
-    {
-      projectName: "WhatsApp-Bot",
-      image: "images/whatsappbot.jpg",
-      summary:
-        "Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-      preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-      techStack: ["Selenium", "Chrome Webdriver", "Python"],
-    },
-    {
-      projectName: "Bill Generator",
-      image: "images/billgenerator.png",
-      summary:
-        "GUI to transfer data to excel sheets and generate bills on the local shops.",
-      preview: "https://github.com/vinaysomawat/Bill-Generator",
-      techStack: ["Tkinter", "Openxlpy", "Python"],
+      projectName: "Feedback Widget",
+      image: "images/FeedbackWidget.png",
+      summary: "Created a simple widget that displays feedback from users",
+      preview: "https://github.com/luanaschuler/FeedbackWidget",
+      techStack: ["ReactJS", "NodeJS", "JavaScript", "Typescript"],
     },
   ],
   androidProjects: [
     {
-      projectName: "NITW-CSE",
-      image: "images/nitwcse.jpg",
+      projectName: "Podcastr",
+      image: "images/podcastr.png",
       summary:
-        "The Application display details of Department courses, reference books, research, publication and faculty profile.",
-      preview: "https://github.com/vinaysomawat/NITW-CSE",
-      techStack: ["JAVA", "XML", "Android"],
-    },
-    {
-      projectName: "CareerHigh-App",
-      image: "images/carrerhigh.png",
-      summary:
-        "The Application display the webpages of website careerhigh.in in android devices.",
-      preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-      techStack: ["JAVA", "XML", "Android"],
+        "A platform built to broadcast a specific podcast for developers",
+      preview: "https://github.com/luanaschuler/podcastr-nextjs",
+      techStack: ["Typescript", "NextJS", "React"],
     },
   ],
   freelanceProjects: [
     {
-      projectName: "SnylloAir.com",
-      image: "images/snylloair.png",
+      projectName: "LetMeAsk",
+      image: "images/letmeask.png",
       summary:
-        "Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-      preview: "https://www.snylloair.com/",
-      techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
+        "Let viewers decide which questions the host should answer during a livestream.",
+      preview: "https://github.com/luanaschuler/letmeask-nwl",
+      techStack: ["ReactJS", "Typescript", "Firebase", "Styled Components"],
     },
+  ],
+  ecommerce: [
     {
-      projectName: "Delivery+",
-      image: "images/AM-Logo-.png",
-      summary: "Android Application to display website in android devices.",
-      preview:
-        "https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-      techStack: ["Android", "JAVA", "Play Store"],
+      projectName: "E-commerce",
+      image: "images/Desktop.png",
+      summary:
+        "Developed a simple e-commerce website using an API for star wars products",
+      preview: "https://github.com/luanaschuler/e_commerce_star_wars",
+      techStack: ["ReactJS", "Javascript", "Material-UI"],
+    },
+  ],
+  mobileproject: [
+    {
+      projectName: "PlantManager",
+      image: "images/Capa.png",
+      summary:
+        "Mobile app to help you remember to take care of your plants easily",
+      preview: "https://github.com/luanaschuler/plant-manager",
+      techStack: ["React Native", "Expo", "Typescript"],
     },
   ],
 };
 
 export const experience = [
   {
-    title: "Biofourmis India Pvt. Ltd.",
-    duration: "April 2022 - Present",
-    subtitle: "Software Engineer",
+    title: "Dropsmart Digital Solutions",
+    duration: "September 2021 - January 2023",
+    subtitle: "Frontend Developer",
     details: [
-      "Currently involved in developing healthcare and digital therapeutics products."
+      "Previously worked on the Frontend of a digital marketing and e-commerce application that serves thousands of users, using ReactJS, Redux, and Material-UI. I participated in creating the system from scratch, designing components and functionalities to meet project needs, as well as providing assistance in system maintenance and bug resolution."
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Nodejs", "Jenkins"],
-    icon: "heartbeat",
-  },
-  {
-    title: "Novopay Solutions Pvt. Ltd.",
-    duration: "June 2020 - April 2022",
-    subtitle: "Software Engineer",
-    details: [
-      "Successfully implemented Aadhaar Enabled Payment services, including Bio-metric eKYC, Cash Withdrawal, Balance Enquiry, Mini-Statements, and Money Transfer, achieving more than 20 story points in each sprint.",
-      "Streamlined the process of loading money into the wallet by integrating QR Code, which reduced the time required by 50%. Also implemented Clevertap events to track user actions, Freshdesk ticketing service, and chat-bot services. Contributed to user onboarding, approval, and finance interfaces.",
-      "Collaborated closely with cross-functional teams such as product, backend, android, and QA, ensuring timely delivery of product builds to meet deadlines",
-    ],
-    tags: ["JavaScript", "Angular", "React", "Bootstrap", "Nodejs", "Jenkins"],
+    tags: ["JavaScript", "ReactJS", "CSS", "Nodejs", "Redux", "Material-UI", "Styled Components",],
     icon: "qrcode",
   },
   {
-    title: "ThinkPedia LLP",
-    duration: "May 2019 - June 2019",
-    subtitle: "SDE Intern",
+    title: "CERTI Foundation",
+    duration: "October 2020 - September 2021",
+    subtitle: "Software Developer",
     details: [
-      "Contributed as a full-stack developer to provide technical support to the team",
-      "Designed and developed a comprehensive Web Application for social media management, starting from the ground up, to cater to customer needs.",
+      "I worked on a water quality indicator analysis project using satellite imagery, contributing to the creation of software using ReactJS, Python, and Postgres. My responsibilities included designing components that adhered to UX design principles, integrating the Frontend with the Backend and Database, implementing software testing, and developing additional software features. This project culminated in an article published in 2022 titled QDA-System: A Cloud-Based System for Monitoring Water Qual"
     ],
-    tags: ["JavaScript", "Angular", "Bootstrap", "Java", "Spring Boot"],
-    icon: "group",
+    tags: ["JavaScript", "React", "Styled Componentes", "Postgres", "Python", "Jenkins"],
+    icon: "qrcode",
   },
 ];
 
 export const education = [
   {
-    title: "Bachelors in Computer Science and Engineering",
+    title: "Degree in System Analysis and Development",
     duration: "",
-    subtitle: "National Institute of Technology, Warangal",
+    subtitle: "SENAI/SC - Brazil",
     details: [
-      "I successfully qualified GATE-2020, demonstrating my aptitude and expertise in the field.",
-      "As an active competitive programmer, I have achieved a CodeChef rating of 1841*, showcasing my skills in solving complex programming problems.",
-      "My GitHub projects have earned over 1k stars and forks, a testament to my ability to create high-quality and impactful code.",
+      "I completed my studies in System Analysis and Development, where I gained proficiency in programming languages. During my studies, I also developed a strong foundation in software development methodologies, project management, and database design.",
     ],
     tags: [
       "Data Structures & Algorithms",
+      "Project Management",
       "Operating Systems",
       "Database Management System",
       "Computer Networks",
       "Compiler Designing",
       "Cloud Computing",
+      "Agile Systems",
+      "QA and Test Applications", 
     ],
     icon: "graduation-cap",
-  },
-  {
-    title: "Class 11-12th in Science and Mathematics",
-    duration: "",
-    subtitle: "Board of Secondary Education, Rajasthan",
-    details: [
-      "I have successfully qualified JEE Advanced, Main, and BITSAT, demonstrating my strong aptitude and skills in these highly competitive exams.",
-      "Additionally, I am proud to have achieved an exceptional 99.5 percentile in my Class 12th Boards Examinations, reflecting my dedication and hard work towards academic excellence.",
-    ],
-    tags: ["Physics", "Chemistry", "Mathematics"],
-    icon: "book",
   },
 ];
 
@@ -226,33 +163,21 @@ export const footer = [
     label: "Dev Profiles",
     data: [
       {
-        text: "Stackoverflow",
-        link: "https://stackoverflow.com/users/8461233/vinay-somawat",
-      },
-      {
         text: "GitHub",
-        link: "https://github.com/vinaysomawat",
-      },
-      {
-        text: "LeetCode",
-        link: "https://leetcode.com/somawatvinay/",
+        link: "https://github.com/luanaschuler",
       },
     ],
   },
   {
     label: "Resources",
     data: [
-      {
-        text: "Enable Dark/Light Mode",
-        func: "enableDarkMode()",
-      },
+      // {
+      //   text: "Enable Dark/Light Mode",
+      //   func: "enableDarkMode()",
+      // },
       {
         text: "Print this page",
         func: "window.print()",
-      },
-      {
-        text: "Clone this page",
-        link: "https://github.com/vinaysomawat/vinaysomawat.github.io",
       },
     ],
   },
@@ -261,28 +186,23 @@ export const footer = [
     data: [
       {
         text: "Linkedin",
-        link: "https://www.linkedin.com/in/vinaysomawat/",
+        link: "https://www.linkedin.com/in/luanaschuler/",
       },
       {
-        text: "Twitter",
-        link: "https://twitter.com/thesigmakid",
-      },
-      {
-        text: "Buy me a coffee",
-        link: "https://www.buymeacoffee.com/r194dME8y",
+        text: "Instagram",
+        link: "https://instagram.com/luanaschuler",
       },
     ],
   },
-  {
-    label: "copyright-text",
-    data: [
-      "Made with &hearts; by Vinay Somawat.",
-      "&copy; No Copyrights. Feel free to use this template.",
-    ],
-  },
+  // {
+  //   label: "copyright-text",
+  //   data: [
+  //     "Made with &hearts; by Vinay Somawat and styled by Luana.",   
+  //   ],
+  // },
 ];
 
-const gitUserName = "vinaysomawat";
+const gitUserName = "luanaschuler";
 const mediumUserName = "vinaysomawat";
 
 export const URLs = {
